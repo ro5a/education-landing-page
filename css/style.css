@@ -263,6 +263,19 @@ margin: auto;
  opacity: 50%;
  position: relative;
 }
+@media screen and (max-width: 600px) {
+  .logos{
+    width: 667px;
+    margin: 10%;
+    
+  }
+  .logo1{
+max-width: 103px;
+
+
+  }
+  
+}
 .bg-process{
   margin-top: 70px;
   background-image: url("../images/Rectangle 335.svg");
@@ -475,9 +488,10 @@ padding-left: 25px;
   width: 100%;
   height: 865px;
   
-  margin-top: 905px;
+  
+  position: relative;
 
- 
+ z-index: 2;
   
 }
 .bg-service-img{
@@ -486,6 +500,28 @@ padding-left: 25px;
   justify-content: center;  
  
 }
-
+.title-service{
+  padding-top: 90px;
+  margin: auto;
+}
+.title-service h2{
+  text-align: center;
+  font-size: 56px;
+  font-family: "mediums";
+  width: 576px;
+}
+.title-service p{
+  text-align: center;
+  font-size: 24px;
+  font-family: "regular";
+  color: #4D4A48;
+}
+.bg-services-ellipse{
+  position: absolute;
+}
+.bg-services-ellipse{
+  display: flex;
+  flex-wrap: wrap;
+}
 
   

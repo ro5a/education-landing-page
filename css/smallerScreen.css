@@ -8,12 +8,15 @@
   }
   .card1{
     margin-bottom: 20px;
+   
+    
   }
+  
   .bg-process{
     margin-top: 70px;
     background-image: url("../images/Rectangle 335.svg");
     width: 100%;
-    
+    height: auto;
     position: relative;
   
   }

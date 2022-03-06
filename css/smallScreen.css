@@ -34,6 +34,7 @@
 }
 
 aside {
+  top: 0px;
   z-index: 1000;
   width: 250px;
   height: 100vh;

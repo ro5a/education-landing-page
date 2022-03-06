@@ -2,6 +2,11 @@
   font-family: "regular";
   src: url('../fonts/Poppins-Regular.ttf');
 }
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
 .bg-home{
   display: flex;
   flex-wrap: wrap;
@@ -15,6 +20,14 @@
   row-gap: 30px;
   justify-content: center;
 }
+.card1{
+ 
+  margin-left: 30px;
+ margin-bottom: 30px;
+
+
+}
+
 .mobile-menu{
   display: none;
 }

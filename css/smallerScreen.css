@@ -18,3 +18,17 @@
   
   }
   
+  .part1{
+    margin-bottom: 30px;
+  }
+  .bg-image img{
+    margin-top: 30px;
+    width: 400px;
+  }
+  .logos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+ height: auto;
+  }

@@ -209,20 +209,7 @@ margin: auto;
  opacity: 50%;
  position: relative;
 }
-@media screen and (max-width: 1170px) {
-  .logos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    width: 600px;
- height: 260px;
-   margin: auto;
-    
-  }
-  
-  
-}
+
 .bg-process{
   margin-top: 70px;
   background-image: url("../images/Rectangle 335.svg");
@@ -324,12 +311,15 @@ margin: auto;
   padding: 35px;
   width: 60px;
 }
+.bg-courses{
+  transform: translateY(-200px);
+}
 /*section two */
 .title-courses{
   font-family: "semibold";
   font-size: 44px;
   text-align: center;
-  
+ 
   margin-bottom: 75px;
 }
 .card-courses{

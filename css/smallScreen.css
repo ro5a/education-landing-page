@@ -11,6 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
  
 }
 .card-courses{
@@ -122,6 +123,16 @@ input:checked ~ aside {
 }
 .bars{
   display: block;
+}
+.logos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  width: 600px;
+height: 260px;
+ margin: auto;
+  
 }
 
 

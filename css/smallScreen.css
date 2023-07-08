@@ -73,7 +73,12 @@ aside ul li:hover{
 aside ul li .fas {
   width: 50px;
 }
-
+.part1 p{
+  margin :10px;
+}
+.title{
+  margin :10px;
+}
 .aside-wrapper {
   padding: 0 30px;
   box-sizing: border-box;
@@ -106,9 +111,7 @@ aside ul li .fas {
   border-radius: 8px;
   cursor: pointer;
 }
-input {
-  display: none;
-}
+
  .container span img{
   background-color:#F59F1B;
   width: 30px;
@@ -140,15 +143,43 @@ height: 260px;
 
 }
 .note-services{
-  width: 300.86px;
+  width: 377.86px;
   z-index: 1;
+  text-align: center;
+  right: 1% !important;
+  left: 0%;
 }
 .title-service{
   margin-top: 30px;
+  right: 1% !important;
+  left: 0%;
 }
 .title-service h2{
-  font-size: 61px;
-  width: 476px;
+  font-size: 41px;
+    width: 440px;
+}
+.img3{
+display:none;
+}
+.img1{
+  display:none;
+  }
+.img5{
+  display:none;
+}
+.img6{
+  display:none;
+}
+.center input {
+  color: var(--link-color);
+  font-size: 16px;
+  font-family: "regular";
+  padding-left: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  width: 364px;
+  height: 70px;
 }
 
 

@@ -23,6 +23,7 @@
   
   .part1{
     margin-bottom: 30px;
+    z-index:999;
   }
   .bg-image img{
     margin-top: 30px;

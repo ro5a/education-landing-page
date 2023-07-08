@@ -219,15 +219,20 @@ nav{
   margin-top: 40px;
   font-family: "mediums";
   font-size: 18px;
+  margin-left: 10px;
 }
 .btn1-home{
-background-color: #fff;
-border: none;
-margin-left: 30px;
-color: var(--link-color);
-margin-top: 40px;
-font-family: "mediums";
-font-size: 18px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 30px;
+  box-shadow: 0px 10px 60px rgba(100, 101, 101, 0.31);
+  padding: 15px 30px;
+  color: var(--link-color);
+  margin-top: 40px;
+  z-index: 9999999;
+  font-family: "mediums";
+  font-size: 18px;
 
 }
 .logos{
@@ -535,6 +540,7 @@ aside{
   font-family: "r_regular";
   max-width: 377px;
   text-align: center;
+  margin: 10px;
 
 
 }
